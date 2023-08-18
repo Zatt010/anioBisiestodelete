@@ -1,9 +1,9 @@
 function bisiesto (anio){
-  if (anio%100 != 0 && anio%4 == 0)
+  if (anio%4 != 0)
   {
-    return true
+    return false
   }
-  return false
+  return true
 }
 
 export default bisiesto
